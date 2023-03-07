@@ -1,0 +1,29 @@
+*, ::before, ::after {
+    margin: 0;
+    box-sizing: border-box;
+}
+.template{
+    min-width: 1400px;
+    text-align: center;
+}
+
+.header {
+    background: rgb(156, 171, 121);
+    color: white;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header__logo {
+    margin-bottom: 1rem;
+    background: #000;
+}
+.links {
+}
+.link {
+    margin: 0 2rem;
+    font-size: 1.75rem;
+    color: white;
+    text-decoration: none;
+}
