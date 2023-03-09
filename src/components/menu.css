@@ -1,0 +1,25 @@
+.ctr {
+    height: calc(100vh - 100px);
+    display: none;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.ctr.active{
+    display: block;
+}
+.gridCtr {
+    margin: 0 auto;
+}
+.title {
+    color: white;
+}
+.mainGrid {
+    width: 100%;
+}
+.mainGrid {
+    margin-top: 1rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+}

@@ -1,0 +1,21 @@
+.contact {
+    height: calc(100vh - 100px - 1.835rem);
+    align-items: center;
+    justify-content: center;
+    display: none;
+}
+.contact-text {
+    border: 1px solid white;
+    color: white;
+    height: 300px;
+    width: 300px;
+    display: flex;
+    align-items: center;justify-content: center;font-size: 2rem;
+    text-transform: uppercase;
+    border-radius: 50%;
+    box-shadow: 1px 1px 10px black;
+    background: #000;
+}
+.contact.active {
+    display: flex;
+}

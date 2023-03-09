@@ -1,0 +1,30 @@
+.header {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 4rem 0;
+    color: white;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header__logo {
+    margin-bottom: 1rem;
+    background: #000;
+}
+
+.link {
+    margin: 0 2rem;
+    font-size: 1.75rem;
+    color: white;
+    text-decoration: none;
+}
+.link.active {
+    text-decoration: underline;
+    color: red;
+}
+.link:hover {
+    text-decoration: underline;
+}
+.home.active{
+    display: flex;
+}
